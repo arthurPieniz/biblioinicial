@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="arquivo.js"></script>
+
+    <div class="header">
+        <h1>Biblioteca online</h1>
+    </div>
+    <div class="select">
+        <ul>
+            <li onclick="primeira();return false">
+                <h2 id="title1">Nome da história</h2>
+                <h3 id="desc1">Descrição da história</h3>
+            </li>
+            
+            <li onclick="segunda();return false">
+                <h2 id="title2">Nome da história</h2>
+                <h3 id="desc2">Descrição da história</h3>
+            </li>
+            
+            <li onclick="terceira();return false">
+                <h2 id="title3">Nome da história</h2>
+                <h3 id="desc3">Descrição da história</h3>
+            </li>
+            
+            <li onclick="quarta();return false">
+                <h2 id="title4">Nome da história</h2>
+                <h3 id="desc4">Descrição da história</h3>
+            </li>
+            
+            <li onclick="quinta();return false">
+                <h2 id="title5">Nome da história</h2>
+                <h3 id="desc5">Descrição da história</h3>            
+            </li>
+            
+            <li>
+                <h2 id="title6">Nome da história</h2>
+                <h3 id="desc6">Descrição da história</h3>            
+            </li>
+
+            <li>
+                <h2 id="title7">Nome da história</h2>
+                <h3 id="desc7">Descrição da história</h3>            
+            </li>
+
+            <li>
+                <h2 id="title8">Nome da história</h2>
+                <h3 id="desc8">Descrição da história</h3>            
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <a href="selectbe.html">Histórias</a>
+        <a href="perfilbe.html">Perfil</a>
+    </div>
+</body>
+<script>
+    let name = historias.hist1.nome
+    let title = document.getElementById('title1')
+
+    let desc = historias.hist1.descricao
+    let descripion = document.getElementById('desc1')
+
+    let name2 = historias.hist2.nome
+    let title2 = document.getElementById('title2')
+
+    let desc2 = historias.hist2.descricao
+    let descripion2 = document.getElementById('desc2')
+
+    let name3 = historias.hist3.nome
+    let title3 = document.getElementById('title3')
+
+    let desc3 = historias.hist3.descricao
+    let descripion3 = document.getElementById('desc3')
+ 
+    let name4 = historias.hist4.nome
+    let title4 = document.getElementById('title4')
+
+    let desc4 = historias.hist4.descricao
+    let descripion4 = document.getElementById('desc4')
+
+    title.innerHTML = name
+    descripion.innerHTML = desc
+
+    title2.innerHTML = name2
+    descripion2.innerHTML = desc2
+
+    title3.innerHTML = name3
+    descripion3.innerHTML = desc3
+
+    
+    title4.innerHTML = name4
+    descripion4.innerHTML = desc4
+
+    let name5 = historias.hist5.nome
+    let title5 = document.getElementById('title5')
+
+    let desc5 = historias.hist5.descricao
+    let descripion5 = document.getElementById('desc5')
+
+    title5.innerHTML = name5
+    descripion5.innerHTML = desc5
+
+    function primeira(){
+        location.href = "tresporcos.html"
+    };
+
+    function segunda(){
+        location.href = "godo.html"
+    }
+
+    function terceira(){
+        location.href = "boni.html"
+    }
+
+    function quarta(){
+        location.href = "monge.html"
+    }
+
+    function quinta(){
+        location.href = "meninobe.html"
+    }
+</script>
+</html>

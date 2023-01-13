@@ -28,6 +28,7 @@ body{
 ul{
     align-items: center;
     text-align: center;
+    margin-bottom: 20%;
 }
 
 li{
@@ -62,4 +63,34 @@ li:hover{
     margin: 3%;
     letter-spacing: 2px;
     font-size: 16pt;
+}
+
+.off{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-align: center;
+}
+
+h2{
+    color: rgb(0, 106, 141);
+    margin: 3%;
+}
+
+.off input{
+    width: 70%;
+    padding: 2%;
+    border: 5px solid rgb(0, 106, 141);
+    color: white;
+    background-color: rgb(0, 106, 141);
+    border-radius: 10px;
+}
+.off input{
+    cursor: pointer;
+}
+
+#selected{
+    font-weight: bold;
 }
